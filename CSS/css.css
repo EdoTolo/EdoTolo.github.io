@@ -5,8 +5,8 @@ html {
 }	
 body {
 	margin: 0;
-	/*background-image: url('../Photos/bg.gif');*/
-	background-color: #DFDFDF;
+	background-image: url("../bg.gif");
+	/*background-color: #DFDFDF;*/
 	font-family: 'Roboto Mono', monospace;
 	user-select: none;
 }
