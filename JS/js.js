@@ -18,6 +18,8 @@ function checkCookie(){
 }
 //*/
 
+
+
 //Scroll Back To Top
 function gotoTop() {
 	document.body.scrollTop = 0;
@@ -30,13 +32,9 @@ function gotoTop() {
 function codeNumber() {
 	let n = +prompt('Enter a code...','');
 	switch (n) {
-		case 000001:
-			alert("Code Accepted\n\nRedirecting...");
-			window.location = "Notes/notes.html";
-			break;
 		case 202420:
 			alert("Code Accepted\n\nRedirecting...");
-			window.location = "sites/forum/forum.html";
+			window.location = "sites/template.html";
 			break;
 		default:
 		break;
