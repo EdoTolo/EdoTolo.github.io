@@ -406,8 +406,8 @@ input[type=reset] {
 	padding: 14px 16px;
 }	
 .dM {
-	/*background-image: url('../Photos/bgdm.gif');*/
-	background-color: #333333;
+	background-image: url("../bgdm.gif");
+	/*background-color: #333333;*/
 	color: #FFFFFF;
 }	
 .dM a {
