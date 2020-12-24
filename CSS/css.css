@@ -147,13 +147,14 @@ button:focus{
 	padding: 20px;
 	border-radius: 20px;
 	width: 100%;
-	min-height: 400px;
+	min-height: 275px;
 	max-height: 500px;
 }
 	
 /* Art Gallery */	
 #artgallery {
 	width: 100%;
+	padding-top: 15px;
 }	
 * {
 	box-sizing: border-box;
@@ -261,6 +262,7 @@ video {
 /* Tutorials */	
 #tutorials {
 	width: 100%;
+	padding-top: 15px;
 }
 	
 /* Site News */	
