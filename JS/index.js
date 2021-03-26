@@ -10,4 +10,3 @@ function change() {
 		counter = 0;
 	}
 }
-
