@@ -1,9 +1,11 @@
+/*
 //Dark Mode
 function darkMode() {
 	document.body.classList.toggle("dM");
 	//checkCookie();
 }
-/*/
+
+//Theme
 function checkCookie(){
 	var themeLM = document.body.class = "dM";
 	var themeDM = document.body.class = "dM";
@@ -16,27 +18,11 @@ function checkCookie(){
 	}
 	document.cookie = theme;
 }
-//*/
-
-
+//
 
 //Scroll Back To Top
 function gotoTop() {
 	document.body.scrollTop = 0;
 	document.documentElement.scrollTop = 0;
 }
-
-
-
-//Hidden Codes
-function codeNumber() {
-	let n = +prompt('Enter a code...','');
-	switch (n) {
-		case 202420:
-			alert("Code Accepted\n\nRedirecting...");
-			window.location = "sites/template.html";
-			break;
-		default:
-		break;
-	}
-}
+*/
