@@ -1,5 +1,5 @@
 //I am a...
-var who = ["34 40 53 83 14", "64 25 144 144 225", "F&T, T, P&T, P&T, I&T"];
+var who = ["34 40 53 83 14", "64 25 144 144 225", "F&T T P&T P&T I&T"];
 var colors = ["#C40B10", "#46DB46", "#085699"];
 var i = 0;
 var wElem = document.getElementById("about");
