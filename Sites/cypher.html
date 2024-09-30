@@ -7,18 +7,12 @@
     <meta name="robots" content="index, follow"/>
     <meta name="theme-color" content="#004789"/>
     <meta type="UTF-8"/>
-    <link href="Photos/Main/title.ico" rel="icon"/>
+    <link href="../Photos/Main/title.ico" rel="icon"/>
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
     <link rel="stylesheet" href="../CSS/css.css"/>
-    <script type="text/javascript" src="../JS/title.js"></script>
 </head>
 <body>
 <!-- Header -->
-    <!-- Logo/News -->
-    <table>
-        <th><p class="news">UPDATES</p></th>
-        <td><marquee class="newsmarquee">Site Last Updated February 9-13, 2023.</marquee></td>
-    </table>
 	<!-- Nav -->
 	<div class="navcontent">
 		<div class="nav">
@@ -29,27 +23,32 @@
 		</div>
 	</div>
 
-<!-- Social -->
-    <div class="social">
-        <a href="https://www.instagram.com/edotolo/" class="ig"></a>
-        <a href="https://www.youtube.com/@edotolo" class="yt"></a>
-        <a href="mailto:eduardotolentino03@gmail.com" class="g"></a>
+<!-- Text -->
+    <div class="mainText">
+        <div>
+            <p>Encoder</p><br>
+            <textarea class="codeText" id="eCode" placeholder="Type what's to be encoded here."></textarea>
+        </div>
+        <br>
+        <div class="mCoder">
+            <button class="bCoder" onclick="decode()">˅ Decode</button>
+            <button class="bCoder" onclick="">Encode ˄</button>
+        </div>
+        <br>
+        <div>
+            <p>Decoder</p><br>
+            <textarea class="codeText" id="dCode" placeholder="Type what's to be decoded here."></textarea>
+        </div>
+        <br>
     </div>
-
-<!-- -->
+        
 
 <!-- Footer -->
     <!-- Nav Call -->
 	<div id="footer">
-		<h2>Other</h2><hr>
-		<a href="https://docs.google.com/document/d/1gkhcSiNPi5RLKyOObvYW_s_TSPgzhpWB0D0vhGxUUns/edit?usp=sharing" class="links">
-			<h3><b>Resume</b></h3>
-		</a>
-        <a href="#" class="links">
-			<h3><b>Linkedln</b></h3>
-		</a>
-        <br>
 		<h5 class="sign">Eduardo Tolentino, 2018-2023</h5>
 	</div>
+<script type="text/javascript" src="../JS/title.js"></script>
+<script type="text/javascript" src="../JS/js.js"></script>
 </body>
 <html>

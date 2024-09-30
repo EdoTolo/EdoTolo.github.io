@@ -1,198 +1,106 @@
-<!DOCTYPE HTML>
+<!Doctype html>
+<head>
+    <title id="title">Edo Tolo</title>
+    <meta name="description" content="Portfolio"/>
+    <meta name="keywords" content="portfolio, resume, Edo Tolo"/>
+    <meta name="author" content="Edo Tolo, Eduardo Tolentino"/>
+    <meta name="robots" content="index, follow"/>
+    <meta name="theme-color" content="#004789"/>
+    <meta type="UTF-8"/>
+    <link href="Photos/Main/title.ico" rel="icon"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/css.css"/>
+</head>
+<body>
+<!-- Header -->
+    <!-- Logo/News -->
+    <table>
+        <th><p class="news">UPDATES</p></th>
+        <td><marquee class="newsmarquee">Site Last Updated September 2024.</marquee></td>
+    </table>
+	<!-- Nav -->
+	<div class="navcontent">
+		<div class="nav">
+            <a href="#" class="navl"><img src="Photos/Main/logo.png" class="logo"></img></a>
+			<div class="navr">
+                <a href="#artgallery" class="navp">Art Gallery</a>
+			    <!--<a href="#tutorials" class="navp">Tutorials</a>-->
+                <a href="#footer" class="navp">Other</a>
+            </div>
+		</div>
+	</div>
+	<!-- Portrait -->
+	<div class="portrait">
+        <div class="meA">
+            <img src="Photos/Index/me.png" class="me" onclick="codeNumber()"></img>
+        </div>
+        <div class="meB">
+            <h1 class="about" id="about"></h1>
+        </div>
+    </div>
+<!-- Social -->
+    <div class="social">
+        <a href="https://www.instagram.com/edotolo/" class="ig"></a>
+        <a href="https://www.youtube.com/@edotolo" class="yt"></a>
+        <a href="mailto:eduardotolentino03@gmail.com" class="g"></a>
+    </div>
+<!-- Art Gallery -->
+    <!-- Nav Call -->
+	<div id="artgallery" class="split">		
+	    <!-- Split Space -->
+	    <div class="splitSpaceContainer">
+		    <table>
+			    <tr>
+				    <td>
+				    	<h2 class="containerTitle">Art Gallery</h2>
+		    		</td>
+	    			<td>
+		    		</td>
+	    			<td>
+		    			<a href="gallery.html"><h2 class="containerSeeMore">See more...</h2></a>
+	    			</td>
+	    		</tr>
+	    	</table>
+    	</div>
+        <br>	
+    	<!-- Pictures Examples -->
+	    <div class="row">
+	    	<div class="column">
+	    		<a target="_blank" href="Photos/Gallery/Aa1.png" title="Aa"><img src="Photos/Gallery/Aa1.png" alt="people"></img></a>
+	    		<a target="_blank" href="Photos/Gallery/jxc.png" title="JX6C"><img src="Photos/Gallery/jxc.png" alt="wallpaper"></img></a>
+	    	</div>
+	    	<div class="column">
+	    		<a target="_blank" href="Photos/Gallery/l&h.png" title="Mask"><img src="Photos/Gallery/l&h.png" alt="mobile"></img></a>
+	    	</div>
+	    	<div class="column">
+	    		<a target="_blank" href="Photos/Gallery/sh.png" title="Hand"><img src="Photos/Gallery/sh.png" alt="mobile"></img></a>
+	    	</div>
+	    	<div class="column">
+	    		<a target="_blank" href="Photos/Gallery/rs.png" title="Blood Moon"><img src="Photos/Gallery/rs.png" alt="wallpaper"></img></a>
+	    		<a target="_blank" href="Photos/Gallery/sbh.png" title="Arc Hand"><img src="Photos/Gallery/sbh.png" alt="wallpaper"></img></a>
+	    		<a target="_blank" href="Photos/Gallery/vwss.gif" title="Vaporwave Sunset"><img src="Photos/Gallery/vwss.gif" alt="gif"></img></a>
+	    	</div>
+        </div>
+    </div>
+    <br>
+<!-- Timer --
+    <div id="timer"></div>
+    <br>-->
+<!-- Footer -->
+    <!-- Nav Call -->
+	<div id="footer"><!--
+		<h2>Other</h2><hr>
+		<a href="#" class="links">
+			<h3><b>Resume</b></h3>
+		</a>
+        <a href="#" class="links">
+			<h3><b>Linkedln</b></h3>
+		</a>-->
+        <br>
+		<h5 class="sign">Eduardo Tolentino, 2018-2024</h5>
+	</div>
+<script type="text/javascript" src="JS/who.js"></script>
+<script type="text/javascript" src="JS/title.js"></script>
+<script type="text/javascript" src="JS/js.js"></script>
+</body>
 <html>
-	<head>
-		<title id="title">Edo Tolo</title>
-		<meta name="description" content="portfolio"/>
-		<meta name="keywords" content="portfolio, Edo Tolo"/>
-		<meta name="author" content="Edo Tolo, Eduardo Tolentino"/>
-		<meta name="robots" content="index, follow"/>
-		<meta name="theme-color" content="#004789"/>
-		<meta type="UTF-8"/>
-		<link href="photos/titleicon.ico" rel="icon"/>
-		<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
-		<link rel="stylesheet" href="CSS/css.css"/>
-		<script type="text/javascript" src="JS/js.js"></script>
-	</head>
-	
-	<body>
-		
-	<!-- Header -->
-		
-		<!-- Logo -->
-		<div class="header">
-			<img src="photos/logo.png" class="logo" onclick="codeNumber()"></img>
-		</div>
-		
-		<!-- Nav -->
-		<div class="topcontent">
-			<div class="topnav">
-				<a href="#other" class="topnava">Other</a>
-				<a href="#tutorials" class="topnava">Tutorials</a>
-				<a href="#artgallery" class="topnava">Art Gallery</a>
-			</div>
-		</div>
-		
-		<!-- Portait -->
-		<div class="headerContainer">
-			<img src="photos/index/me.jpg" class="me">
-		</div>
-		
-		<!-- Fade -->
-		<div>
-			<br>
-			<p class="headerFade1"></p><br>
-			<p class="headerFade2"></p><br>
-			<p class="headerFade3"></p><br>
-		</div>
-		
-	<!-- Art Gallery -->
-		
-		<div id="artgallery">
-			
-	<!-- Split Space -->
-			
-			<div class="splitSpaceContainer">
-				<table>
-					<tr>
-						<td>
-							<h2 class="containerTitle">Art Gallery</h2>
-						</td>
-						<td>
-						</td>
-						<td>
-							<a href="artgallery.html"><h2 class="containerSeeMore">See more...</h2></a>
-						</td>
-					</tr>
-				</table>
-			</div>
-			
-	<!-- Pictures Examples -->
-	
-			<div class="row">
-				<div class="column">
-					<a target="_blank" href="photos/gallery/Aa.png" title="Aa"><img src="photos/gallery/Aa.png" alt="people"></img></a>
-					<a target="_blank" href="photos/gallery/jxc.png" title="JX6C"><img src="photos/gallery/jxc.png" alt="wallpaper"></img></a>
-				</div>
-				<div class="column">
-					<a target="_blank" href="photos/gallery/l&h.png" title="Mask"><img src="photos/gallery/l&h.png" alt="mobile"></img></a>
-				</div>
-				<div class="column">
-					<a target="_blank" href="photos/gallery/sh.png" title="Hand"><img src="photos/gallery/sh.png" alt="mobile"></img></a>
-				</div>
-				<div class="column">
-					<a target="_blank" href="photos/gallery/rs.png" title="Blood Moon"><img src="photos/gallery/rs.png" alt="wallpaper"></img></a>
-					<a target="_blank" href="photos/gallery/sbh.png" title="Arc Hand"><img src="photos/gallery/sbh.png" alt="wallpaper"></img></a>
-					<a target="_blank" href="photos/gallery/ss.gif" title="Vaporwave Sunset"><img src="photos/gallery/ss.gif" alt="gif"></img></a>
-				</div>
-			</div>
-		</div>
-		
-	<!-- Tutorials -->
-					
-		<div id="tutorials">
-		
-	<!-- Split Space -->
-			
-			<div class="splitSpaceContainer">
-				<table>
-					<tr>
-						<td>
-							<h2 class="containerTitle">Tutorials</h2>
-						</td>
-						<td>
-						</td>
-						<td>
-							<a href="tutorials.html"><h2 class="containerSeeMore">See more...</h2></a>
-						</td>
-					</tr>
-				</table>
-			</div>
-		
-	<!-- Preview Tutorials -->
-					
-			<div class="row">
-				<div class="column">
-					<a href="sites/website/home.html">
-						<div class="selections">
-							<code>
-								<img src="photos/index/website.png"></img>
-								<h3>Website Building</h3>
-								<p>Learn how to code basic websites.</p>
-							</code>
-						</div>
-					</a>
-				</div>
-				<div class="column">
-					<a href="sites/blender/home.html">
-						<div class="selections">
-							<code>
-								<img src="photos/index/blender.png"></img>
-								<h3>Blender</h3>
-								<p>Learn how to use Blender.</p>
-							</code>
-						</div>
-					</a>
-				</div>
-				<div class="column">
-					<a href="sites/adobe/home.html">
-						<div class="selections">
-							<code>
-								<img src="photos/index/adobe.png"></img>
-								<h3>Adobe Products</h3>
-								<p>Learn how to use adobe products.</p>
-							</code>
-						</div>
-					</a>
-				</div>
-				<div class="column">
-					<a href="sites/discord/home.html">
-						<code>
-							<div class="selections">
-								<img src="photos/index/discord.png"></img>
-								<h3>Discord Bots</h3>
-								<p>Learn how to program and run discord bots.</p>
-							</div>
-						</code>
-					</a>
-				</div>
-			</div>
-		</div>
-	
-	<!-- Other -->
-					
-		<div id="other">
-	
-	<!-- Site News -->
-	
-			<br />
-			<table>
-				<th><p class="news">NEWS</p></th>
-				<td><marquee class="newsmarquee">Site Last Updated July 19, 2021. | Eventually, information will be placed in some of the tutorials.</marquee></td>
-			</table>
-			<br />
-		</div>
-		
-	<!-- Footer -->
-	
-		<div id="footer">
-			<h2>Social Media</h2><hr>
-				<a href="https://www.instagram.com/edotolo/?hl=en" class="links">
-					<h3><b>Instagram</b></h3>
-				</a>
-				<a href="https://www.youtube.com/channel/UCgbPqgTuAdMDu5P5kJvvMcw" class="links">
-					<h3><b>Youtube</b></h3>
-				</a>	
-			<h2>Contact Me</h2><hr>
-				<a href="mailto:eduardotolentino03@gmail.com" class="links">
-					<h3><b>Gmail</b></h3>
-				</a>
-			<!--
-			<h2>Support Me</h2><hr>
-				<a href="#" class="links">
-					<h3><b>Patreon</b></h3>
-				</a>
-			-->
-			<h3 class="sign">Website Created By<br>Eduardo Tolentino, 2018-2021</h3>
-		</div>
-	</body>
-</html>

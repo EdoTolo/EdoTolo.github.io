@@ -1,28 +1,30 @@
-/*
-//Dark Mode
-function darkMode() {
-	document.body.classList.toggle("dM");
-	//checkCookie();
+//Hidden Codes
+function codeNumber() {
+	let n = +prompt('Enter a code...','');
+	switch (n) {
+		case 202420:
+			alert("Code Accepted\n\nRedirecting...");
+			window.location = "Sites/cypher.html";
+			break;
+		default:
+		break;
+	}
 }
 
-//Theme
-function checkCookie(){
-	var themeLM = document.body.class = "dM";
-	var themeDM = document.body.class = "dM";
-	var theme = document.body.class;
-	if(theme = "dm"){
-		themeLM.toggle;
-	}
-	else{
-		themeDM.toggle;
-	}
-	document.cookie = theme;
-}
-//
 
-//Scroll Back To Top
-function gotoTop() {
-	document.body.scrollTop = 0;
-	document.documentElement.scrollTop = 0;
-}
-*/
+
+/*/Timer
+var countDownDate = new Date("August 13, 2024 00:00:00").getTime();
+var x = setInterval(function() {
+	var now = new Date().getTime();
+	var distance = countDownDate - now;
+	var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+	var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+	var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+	var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  	document.getElementById("timer").innerHTML = days+"d "+hours+"h "+minutes+"m "+seconds+"s ";
+  	if (distance < 0) {
+    	clearInterval(x);
+    	document.getElementById("timer").innerHTML = "EXPIRED";
+  	}
+}, 1000);*/
