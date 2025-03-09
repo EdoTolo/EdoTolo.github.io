@@ -11,7 +11,7 @@ function codeNumber() {
 	}
 }
 
-
+document.getElementById("year").innerHTML = "Eduardo Tolentino, 2018-"+new Date().getFullYear();
 
 /*/Timer
 var countDownDate = new Date("August 13, 2024 00:00:00").getTime();
