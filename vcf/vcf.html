@@ -1,5 +1,5 @@
 <!Doctype html>
-  <head>
+<head>
   <title>Digital Business Card</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,8 +10,8 @@
     <script>
       "http"==window.location.href.substr(0,4)&&"/"!=window.location.href.slice(-1)&&window.location.replace(window.location.href+"/");
     </script>
-      <style>
-        #body{ font-family: sans-serif; }
+    <style>
+      #body{ font-family: sans-serif; }
         input[type='range']::-moz-range-track { background: none; }
         input[type='range']::-moz-range-thumb { -moz-appearance: none; width: 1.5rem; height: 1.5rem; border-radius: 100%;
           border: none;
@@ -19,26 +19,30 @@
           z-index: 3;
           cursor: pointer;
         }
-        input[type='range']::-webkit-slider-thumb { -webkit-appearance: none;
-          width: 1.5rem;
-          height: 1.5rem;
-          border-radius: 100%;
-          border: none;
-          background: #000000;
-          z-index: 3;
-          cursor: pointer;
-        }
-        .closeColor{
-          filter:invert(1) 
-        }
-        .iconColor{ color:#eee;  }
-        .textColor{
-          color: #222 !important
-        }
-        .seekbarColor{
-          background:#00000080 !important
-        }
-      </style> <!----> <!----><link rel="stylesheet" href="./style.min.css"></head> <body id="body"><div id="modal" style="background-color: rgb(255, 255, 255); visibility: hidden; top: 2rem; opacity: 0;"><a id="close" class="closeColor"><div class="icon"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2"><path style="fill:none" d="M0 0h24v24H0z"></path><path d="M18 6 6 18M6 6l12 12" style="fill:none;fill-rule:nonzero;stroke:#fff;stroke-width:2px"></path></svg></div></a>
+      input[type='range']::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        width: 1.5rem;
+        height: 1.5rem;
+        border-radius: 100%;
+        border: none;
+        background: #000000;
+        z-index: 3;
+        cursor: pointer;
+      }
+      .closeColor{
+        filter:invert(1) 
+      }
+      .iconColor{ color:#eee;  }
+      .textColor{
+        color: #222 !important
+      }
+      .seekbarColor{
+        background:#00000080 !important
+      }
+    </style>
+    <link rel="stylesheet" href="./style.min.css"/>
+</head>
+<body id="body"><div id="modal" style="background-color: rgb(255, 255, 255); visibility: hidden; top: 2rem; opacity: 0;"><a id="close" class="closeColor"><div class="icon"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2"><path style="fill:none" d="M0 0h24v24H0z"></path><path d="M18 6 6 18M6 6l12 12" style="fill:none;fill-rule:nonzero;stroke:#fff;stroke-width:2px"></path></svg></div></a>
         <div id="copyView">
           <p class="textColor">
             Copy and send the URL to share my Business Card
