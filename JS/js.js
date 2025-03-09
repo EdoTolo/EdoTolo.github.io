@@ -6,7 +6,7 @@ function codeNumber() {
 			alert("Code Accepted\n\nRedirecting...");
 			window.location = "Sites/cypher.html";
 			break;
-		case vcf:
+		case "vcf":
 			alert("Code Accepted\n\nRedirecting...");
 			window.location = "vCard/vCard.html";
 			break;
