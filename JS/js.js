@@ -8,7 +8,7 @@ function codeNumber() {
 			break;
 		case 123:
 			alert("Code Accepted\n\nRedirecting...");
-			window.location = "vCard/vCard.html";
+			window.location = "vcf/vcf.html";
 			break;
 		default:
 		break;
