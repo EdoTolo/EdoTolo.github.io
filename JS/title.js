@@ -10,3 +10,5 @@ function tChange() {
 		t = 0;
 	}
 }
+
+document.getElementById("year").innerHTML = "Eduardo Tolentino, 2018-"+new Date().getFullYear();
