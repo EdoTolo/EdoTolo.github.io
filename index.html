@@ -10,10 +10,11 @@
     <link href="/Photos/Main/title.ico" rel="icon"/>
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
     <link rel="stylesheet" href="CSS/css.css"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 <!-- Header -->
-    <!-- Logo/News -->
+	<!-- Logo/News -->
     <table>
         <th><p class="news">UPDATES</p></th>
         <td><marquee class="newsmarquee">Site Last Updated March 2025.</marquee></td>
@@ -21,29 +22,34 @@
 	<!-- Nav -->
 	<div class="navcontent">
 		<div class="nav">
-            <a href="index.html" class="navl"><img src="Photos/Main/logo.png" class="logo"></img></a>
-			<div class="navr">
-                <a href="#artgallery" class="navp">Art Gallery</a>
-			    <!--<a href="#tutorials" class="navp">Tutorials</a>-->
-                <a href="#footer" class="navp">Other</a>
+			<div class="navl">
+				<a href="index.html" class="navb"><img src="Photos/Main/logo.png" class="logo"></img></a>
+			</div>
+            <div class="navr">
+                <!--<a href="#artgallery" class="navb">Art Gallery</a>
+			    <a href="#tutorials" class="navb">Tutorials</a>-->
+                <a href="#" class="navb">Go To Top</a>
             </div>
 		</div>
 	</div>
-	<!-- Portrait -->
-	<div class="portrait">
-        <div class="meA">
-            <img src="Photos/Index/me.png" class="me" onclick="codeNumber()"></img>
+
+<!-- Main -->
+	<div class="main">
+        <div class="mA">
+            <img src="Photos/Index/514wd1.png" class="mI" onclick="codeNumber()"></img>
         </div>
-        <div class="meB">
-            <h1 class="about" id="about"></h1>
+        <div class="mB">
+            <h1 class="cypher" id="cypher"></h1>
         </div>
     </div>
-<!-- Social -->
+
+<!-- Social Buttons -->
     <div class="social">
         <a href="https://www.instagram.com/edotolo/" class="ig"></a>
         <a href="https://www.youtube.com/@edotolo" class="yt"></a>
         <a href="mailto:eduardotolentino03@gmail.com" class="g"></a>
     </div>
+
 <!-- Art Gallery -->
     <!-- Nav Call -->
 	<div id="artgallery" class="split">		
@@ -83,17 +89,20 @@
         </div>
     </div>
     <br>
-<!-- Timer --
+<!-- Timer 
     <div id="timer"></div>
     <br>-->
+
 <!-- Footer -->
-    <!-- Nav Call -->
 	<div id="footer">
         <br>
 		<h5 class="sign" id="year"></h5>
 	</div>
+
+<!-- Script Calling -->
 <script type="text/javascript" src="JS/who.js"></script>
 <script type="text/javascript" src="JS/title.js"></script>
 <script type="text/javascript" src="JS/js.js"></script>
+
 </body>
 </html>

@@ -10,6 +10,10 @@ function codeNumber() {
 			alert("Code Accepted\n\nRedirecting...");
 			window.location = "vcf/vcf.html";
 			break;
+		case 234:
+			alert("Code Accepted\n\nRedirecting...");
+			window.location = "gallery.html";
+			break;
 		default:
 		break;
 	}
