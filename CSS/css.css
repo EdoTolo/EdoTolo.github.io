@@ -156,7 +156,6 @@ iframe {
 
 /* Main */	
 .main {
-	/*background-image: linear-gradient(230deg, #00478900, #004789);*/
 	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
