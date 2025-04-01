@@ -248,3 +248,19 @@ iframe {
 	margin: 0;
 	font-size: 1vw;
 }
+
+/* Checkbox */
+input[type="checkbox"] {
+	width: 20px;
+	height: 20px;
+	appearance: none;
+	-webkit-appearance: none;
+	background-color: #ffffff;
+	border: none;
+	border-radius: 25px;
+	cursor: pointer;
+}
+input[type="checkbox"]:checked {
+	background-color: #000000;
+	border: 2px solid #ffffff;
+}
